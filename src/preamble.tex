@@ -1,0 +1,158 @@
+% ==========================================
+% 1. Page Geometry & Layout
+% ==========================================
+\usepackage[
+  a4paper,
+  top=2.5cm, bottom=2.5cm,
+  inner=3cm, outer=2.5cm,
+  headheight=15pt
+]{geometry}
+
+\usepackage{fmtcount}
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+\usepackage{titlesec}
+\usepackage{lipsum}
+\usepackage[table]{xcolor} % Enables background row colors for tables
+
+
+% ==========================================
+% 2. Math & Science Packages
+% ==========================================
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[style=ieee, backend=biber]{biblatex}
+\addbibresource{lab-01/references.bib}
+
+% ==========================================
+% 3. Graphics & Visualization
+% ==========================================
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{tikz} % Required for the background watermark
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usepackage{setspace}
+\usepackage{ragged2e}
+\usepackage{xurl}
+\urlstyle{same}
+\setstretch{1.25}
+\setlength{\parskip}{6pt}
+\setlength{\parindent}{0pt}
+\setlength{\emergencystretch}{2em}
+\usepackage{enumitem}
+\setlist[enumerate]{topsep=2pt, itemsep=0pt, parsep=0pt, partopsep=0pt, leftmargin=1.8em}
+\setlist[itemize]{topsep=2pt, itemsep=0pt, parsetp=0pt, partopsep=0pt, leftmargin=1.8em}
+
+\usepackage{xparse}
+\let\OriginalIncludeGraphics\includegraphics
+\RenewDocumentCommand{\includegraphics}{O{}m}{%
+  \IfFileExists{#2}{\OriginalIncludeGraphics[#1]{#2}}{%
+    \fbox{\parbox[c][5cm][c]{\linewidth}{\centering Missing image\\\detokenize{#2}}}%
+  }%
+}
+\usepackage[
+  format=plain,
+  labelfont=bf,
+  font=small,
+  justification=centering
+]{caption}
+\usepackage{subcaption}
+
+% Chapter-based numbering: Fig. 1.1, Table 1.1 …
+\usepackage{chngcntr}
+\counterwithin{figure}{chapter}
+\counterwithin{table}{chapter}
+
+\usepackage{enumitem}
+\setlist[enumerate]{topsep=4pt, itemsep=2pt, leftmargin=1.8em}
+\setlist[itemize]{topsep=4pt, itemsep=2pt, leftmargin=1.8em}
+
+
+% ==========================================
+% 4. Enhanced Tables (Adjusted for Cover Page)
+% ==========================================
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{makecell} % Added: For sub-breaks and paddings inside cells
+
+% ==========================================
+% 5. Hyperlinks, Colors & Lists
+% ==========================================
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  citecolor=black,
+  urlcolor=black,
+  pdfborder={0 0 0},
+  breaklinks=true
+}
+\AtBeginBibliography{\justifying}
+
+% ==========================================
+% 6. Header & Footer Configurations
+% ==========================================
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\chaptermark}[1]{\markboth{Experiment\ \thechapter}{}}
+\renewcommand{\sectionmark}[1]{\markright{#1}}
+\makeatletter
+\newcommand{\currentchaptername}{}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}\renewcommand{\currentchaptername}{#1}}
+\makeatother
+
+% Even Pages Header
+\fancyhead[EL]{\small \CourseCode}
+\fancyhead[ER]{%
+  \small Experiment
+  \ifnum\value{chapter}<10 0\fi\arabic{chapter}}
+
+% Odd Pages Header
+\fancyhead[OL]{\small \currentchaptername}
+\fancyhead[OR]{%
+  \small Experiment
+  \ifnum\value{chapter}<10 0\fi\arabic{chapter}}
+
+% Footers
+\fancyfoot[C]{\small \thepage}
+
+% Adjust the line thickness under the header
+\renewcommand{\headrulewidth}{0.5pt}
+% Remove section numbers from header
+\renewcommand{\sectionmark}[1]{\markboth{#1}{}}
+
+% Reformat the chapter structure to match the lab sheet layout
+\titleformat{\chapter}[block]
+{\normalfont}
+{{\large\bfseries Experiment No:} \large\padzeroes[2]{\thechapter}}
+{0pt}
+{\\[1.5ex]{\large\bfseries Name of Experiment:} \large}
+
+\usepackage{titlesec}
+
+\newcommand{\twodigits}[1]{%
+  \ifnum#1<10 0\fi\number#1%
+}
+
+\titleformat{\chapter}[block]
+{\normalfont}
+{{\large\bfseries Experiment No:} \large\twodigits{\value{chapter}}}
+{0pt}
+{\\[1.5ex]{\large\bfseries Name of Experiment:} \large}
+
+\titlespacing*{\chapter}{0pt}{-40pt}{2ex}
+\titlespacing*{\section}{0pt}{1.2em}{0.6em}
+\titlespacing*{\subsection}{0pt}{0.9em}{0.5em}
+\titlespacing*{\subsubsection}{0pt}{0.7em}{0.4em}
