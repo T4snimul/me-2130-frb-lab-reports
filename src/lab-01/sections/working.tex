@@ -1,7 +1,78 @@
 \section{Working}
 \markright{Working}
 
-(example with screenshots)
-- unit selection
-- place selection
-- line drawing, dementioning
+The creation of any 3D part in SolidWorks begins with a systematic workflow. This section outlines the initial steps required to set up the environment and create a basic 2D sketch, which forms the foundation for 3D features.
+
+\subsection{Unit System Selection}
+Upon launching SolidWorks and creating a new part file, the first crucial step is to define the unit system for the model. The dimensions of all sketches and features will be based on this selection. The unit system can be accessed and changed from the bottom-right corner of the status bar. For this lab, the MMGS (millimeter, gram, second) system is used for all models.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.5\textwidth]{lab-01/assets/unit-selection.png}
+  \caption{Selecting the MMGS unit system from the status bar.}
+  \label{lab_01_fig_unit_selection}
+\end{figure}
+
+\subsection{Plane Selection}
+After setting the unit system, a base plane must be selected to host the initial 2D sketch. SolidWorks provides three default planes: Front, Top, and Right. The choice of plane is important as it determines the orientation of the part. To start a sketch, one must select a plane from the FeatureManager Design Tree or by clicking on it in the graphics area, and then select the Sketch command.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.5\textwidth]{lab-01/assets/plane-selection.png}
+  \caption{Selecting the Front Plane for the initial sketch.}
+  \label{lab_01_fig_plane_selection}
+\end{figure}
+
+\subsection{Sketching and Dimensioning}
+With a plane selected and the sketch mode active, 2D geometry can be created using the tools in the Sketch CommandManager. Tools like Line, Circle, and Rectangle are used to draw the basic profile of the part.
+
+After creating the geometry, it must be fully defined using dimensions and geometric relations. The Smart Dimension tool is used to add precise dimensional values to the sketch entities. Adding relations like Vertical, Horizontal, or Tangent helps to lock the geometry's position and orientation. A fully defined sketch is indicated by all lines turning black, and the status bar will display "Fully Defined." This ensures that the model is robust and will behave predictably when changes are made.
+
+\begin{figure}[H]
+  \centering
+  \begin{subfigure}[b]{0.49\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{lab-01/assets/line-drawing.png}
+    \caption{Drawing lines and shapes for the sketch profile.}
+    \label{lab_01_fig_line_drawing}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[b]{0.49\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{lab-01/assets/dimentioning.png}
+    \caption{Using Smart Dimension to fully define the sketch.}
+    \label{lab_01_fig_dimensioning}
+  \end{subfigure}
+  \caption{Process of creating and defining a 2D sketch.}
+  \label{lab_01_fig_sketch_process}
+\end{figure}
+
+\subsection{Extruded Boss/Base}
+Once a sketch is fully defined, the Extruded Boss/Base feature is used to convert the 2D profile into a 3D solid. This tool adds material by projecting the sketch perpendicular to the sketch plane for a specified depth. Various end conditions, such as \textit{Blind}, \textit{Through All}, and \textit{Mid Plane}, offer control over the extrusion, making it a versatile tool for creating a wide range of prismatic parts.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\textwidth]{lab-01/assets/extrude-feature.jpg}
+  \caption{Applying the Extruded Boss/Base feature to a 2D sketch.}
+  \label{lab_01_fig_extrude_feature}
+\end{figure}
+
+\subsection{Revolved Boss/Base}
+For parts with cylindrical or axisymmetric geometry, the Revolved Boss/Base feature is used. This tool creates a 3D solid by revolving a 2D sketch around a selected centerline or axis. It is highly efficient for modeling objects such as wheels, shafts, and pulleys. The sketch profile defines the cross-section of the revolved part.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\textwidth]{lab-01/assets/revolve-feature.jpg}
+  \caption{Using the Revolved Boss/Base feature with a sketch and centerline.}
+  \label{lab_01_fig_revolve_feature}
+\end{figure}
+
+\subsection{Fillet Feature}
+The Fillet feature is an applied feature used to create rounded internal or external faces along one or more edges. Fillets are essential for removing sharp corners, which can help reduce stress concentrations in mechanical parts and improve aesthetics. The feature allows for a constant or variable radius to be applied to the selected edges.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\textwidth]{lab-01/assets/fillet-feature.jpg}
+  \caption{Applying a fillet to round sharp edges on a model.}
+  \label{lab_01_fig_fillet_feature}
+\end{figure}

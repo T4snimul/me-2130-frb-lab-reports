@@ -16,5 +16,106 @@
   {}
 \endgroup
 
+
+\refsection{1}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{lab_01_solidworks_bible}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=63c3545ffa446823f86fd970cf1d17ba}{%
+           family={Lombard},
+           familyi={L\bibinitperiod},
+           given={Matt},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Hoboken, NJ}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons}%
+      }
+      \strng{namehash}{63c3545ffa446823f86fd970cf1d17ba}
+      \strng{fullhash}{63c3545ffa446823f86fd970cf1d17ba}
+      \strng{fullhashraw}{63c3545ffa446823f86fd970cf1d17ba}
+      \strng{bibnamehash}{63c3545ffa446823f86fd970cf1d17ba}
+      \strng{authorbibnamehash}{63c3545ffa446823f86fd970cf1d17ba}
+      \strng{authornamehash}{63c3545ffa446823f86fd970cf1d17ba}
+      \strng{authorfullhash}{63c3545ffa446823f86fd970cf1d17ba}
+      \strng{authorfullhashraw}{63c3545ffa446823f86fd970cf1d17ba}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2022nd}
+      \field{title}{SolidWorks Bible}
+      \field{year}{2022}
+    \endentry
+    \entry{lab_01_cad_fundamentals}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=5f027f780af78d58782e8324ccae68c8}{%
+           family={Madsen},
+           familyi={M\bibinitperiod},
+           given={David\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=690ca88313e02b23e83a14a3b5df3a06}{%
+           family={Madsen},
+           familyi={M\bibinitperiod},
+           given={David\bibnamedelima P.},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Clifton Park, NY}%
+      }
+      \list{publisher}{1}{%
+        {Cengage Learning}%
+      }
+      \strng{namehash}{7aee0dca368e34a44e85f394fd67a7f4}
+      \strng{fullhash}{7aee0dca368e34a44e85f394fd67a7f4}
+      \strng{fullhashraw}{7aee0dca368e34a44e85f394fd67a7f4}
+      \strng{bibnamehash}{7aee0dca368e34a44e85f394fd67a7f4}
+      \strng{authorbibnamehash}{7aee0dca368e34a44e85f394fd67a7f4}
+      \strng{authornamehash}{7aee0dca368e34a44e85f394fd67a7f4}
+      \strng{authorfullhash}{7aee0dca368e34a44e85f394fd67a7f4}
+      \strng{authorfullhashraw}{7aee0dca368e34a44e85f394fd67a7f4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{6th}
+      \field{title}{Engineering Drawing and Design}
+      \field{year}{2016}
+    \endentry
+    \entry{lab_01_dassault_official}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=2af5ad92448d8154aef5c61be12b3be2}{%
+           family={{Dassault Systèmes}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{2af5ad92448d8154aef5c61be12b3be2}
+      \strng{fullhash}{2af5ad92448d8154aef5c61be12b3be2}
+      \strng{fullhashraw}{2af5ad92448d8154aef5c61be12b3be2}
+      \strng{bibnamehash}{2af5ad92448d8154aef5c61be12b3be2}
+      \strng{authorbibnamehash}{2af5ad92448d8154aef5c61be12b3be2}
+      \strng{authornamehash}{2af5ad92448d8154aef5c61be12b3be2}
+      \strng{authorfullhash}{2af5ad92448d8154aef5c61be12b3be2}
+      \strng{authorfullhashraw}{2af5ad92448d8154aef5c61be12b3be2}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{3D CAD Software | SOLIDWORKS}}
+      \field{urlday}{17}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.solidworks.com/product/3d-cad
+      \endverb
+      \verb{url}
+      \verb https://www.solidworks.com/product/3d-cad
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 
