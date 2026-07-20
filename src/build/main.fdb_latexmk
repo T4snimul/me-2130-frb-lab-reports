@@ -1,17 +1,17 @@
 # Fdb version 4
-["biber build/main"] 1784504475.64306 "build/main.bcf" "build/main.bbl" "build/main" 1784505162.8692 0
-  "build/main.bcf" 1784505131 108564 2e0e9dbe2f2d9b53046496b586efe00a "xelatex"
+["biber build/main"] 1784504475.64306 "build/main.bcf" "build/main.bbl" "build/main" 1784506511.23221 0
+  "build/main.bcf" 1784506490 108564 2e0e9dbe2f2d9b53046496b586efe00a "xelatex"
   "lab-01/references.bib" 1784471530 698 417f73836641fde49fad786518cd43ec ""
   (generated)
   "build/main.bbl"
   "build/main.blg"
   (rewritten before read)
-["xdvipdfmx"] 1784505132.15398 "build/main.xdv" "build/main.pdf" "build/main" 1784505162.89911 0
-  "build/main.xdv" 1784505131 163032 dea2e96abc0e2401188bbe141bb6ec90 "xelatex"
+["xdvipdfmx"] 1784506491.01551 "build/main.xdv" "build/main.pdf" "build/main" 1784506511.24287 0
+  "build/main.xdv" 1784506490 178864 79529c31cdeab89e57cd5880775ffc0e "xelatex"
   (generated)
   "build/main.pdf"
   (rewritten before read)
-["xelatex"] 1784505129.24855 "main.tex" "build/main.xdv" "main" 1784505162.87088 0
+["xelatex"] 1784506488.14683 "main.tex" "build/main.xdv" "main" 1784506511.23242 0
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136750654 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1233951848 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -243,10 +243,10 @@
   "C:/Users/tanim/AppData/Roaming/MiKTeX/tex/latex/setspace/setspace.sty" 1670403145 22490 8cac309b79a4c53a4ffce4b1b07aead0 ""
   "C:/Users/tanim/AppData/Roaming/MiKTeX/tex/latex/titlesec/titlesec.sty" 1736608268 48766 87a17a4ef312a39cd43896e34a679a56 ""
   "C:/Users/tanim/AppData/Roaming/MiKTeX/tex/latex/xurl/xurl.sty" 1641733940 4675 e4b8c405820368c2dfb03526e16d725a ""
-  "build/main.aux" 1784505131 10114 08e65b159e926aeec5e2b321f83a8aed "xelatex"
+  "build/main.aux" 1784506490 10114 979ecdce005fc84e5a44bef748088db9 "xelatex"
   "build/main.bbl" 1784504477 4519 2a8456d61df311cfe16577cf4bee1ddc "biber build/main"
-  "build/main.out" 1784505131 3094 82fe1ef8d36fe7321ae4aa0f0d375834 "xelatex"
-  "build/main.run.xml" 1784505131 2444 689695dc978bf07c28c467eff67116de "xelatex"
+  "build/main.out" 1784506490 3094 82fe1ef8d36fe7321ae4aa0f0d375834 "xelatex"
+  "build/main.run.xml" 1784506490 2444 689695dc978bf07c28c467eff67116de "xelatex"
   "cover/background.tex" 1782212937 586 4650988d5bb8dad5d0b3099fcc416e02 ""
   "cover/layout.tex" 1782510752 2157 d697028fca3136dd8394d6730c8a9549 ""
   "cover/main.tex" 1782513137 46 88e26ffaacba6a6f97d058ab3a9255de ""
@@ -297,7 +297,9 @@
   "lab-01/assets/object-7/object-7-snap-9.png" 1784463075 256217 7e3a8d827503e6114567f48af8357898 ""
   "lab-01/assets/object-8/object-8-snap-1.png" 1784463494 187930 ef3a683315d26efd0920e5e3e7b6e65c ""
   "lab-01/assets/object-8/object-8-snap-2.png" 1784463522 230957 d31f8cf4af0060a6012072b00d717977 ""
-  "lab-01/assets/object-8/object-8-snap-3.png" 1784463542 162190 4dc3f1183f610967d329496c059cd876 ""
+  "lab-01/assets/object-8/object-8-snap-5.png" 1784463827 247574 5f6eab02ad89cde8455e9f3782895690 ""
+  "lab-01/assets/object-8/object-8-snap-8.png" 1784464132 221083 ee32f0ed9a8340067c0de22e99698e0a ""
+  "lab-01/assets/object-8/object-8-snap-9.png" 1784464158 164141 feb5191a920222d8952fcd78c0629deb ""
   "lab-01/assets/object-9/object-9-snap-1.png" 1784465196 182116 7c7e7fa4dd2a857572218d93142a937f ""
   "lab-01/assets/object-9/object-9-snap-2.png" 1784465227 256109 eaaeb9de47c5cdb895699a6a72c7f2d7 ""
   "lab-01/assets/object-9/object-9-snap-3.png" 1784465258 177994 8ed032e55e0bc46ba65b935b61e82087 ""
@@ -306,18 +308,18 @@
   "lab-01/assets/unit-selection.png" 1784497901 26921 0effab52e6d99954e97b31488c7dc5b3 ""
   "lab-01/main.tex" 1784468349 971 e9b94342edb4cc6be5fb819f5738cba5 ""
   "lab-01/sections/apparatus.tex" 1784498258 443 bfc965189c7045c21f996bea20eda4e4 ""
-  "lab-01/sections/conclusion.tex" 1783986551 46 a0747ac8458c5cedbff49fe99ee3d68d ""
-  "lab-01/sections/discussion.tex" 1783986551 48 c55833cb6ec6041e6a0c04583507e129 ""
+  "lab-01/sections/conclusion.tex" 1784506484 593 ff0c439200d9c5c2ec8d79986d050c2b ""
+  "lab-01/sections/discussion.tex" 1784506483 803 2b3660ddd68e7976627c5b23df9cfa54 ""
   "lab-01/sections/object-1.tex" 1784500004 1688 1905bc20434abebac0fa435ff90dcccb ""
-  "lab-01/sections/object-10.tex" 1784504221 1223 a617dfdc5a5690e9f22c7db97b9dac9c ""
+  "lab-01/sections/object-10.tex" 1784506367 1192 5c7df6b4d9927015ef1d0f97808c8126 ""
   "lab-01/sections/object-2.tex" 1784504600 1789 cea191a21aa438c67f69a70b3cfe4413 ""
   "lab-01/sections/object-3.tex" 1784504610 1784 446d7253008839f9261d24e74f6e2a5c ""
   "lab-01/sections/object-4.tex" 1784504546 2047 cab3809402f23bd136f64c3551fc495e ""
-  "lab-01/sections/object-5.tex" 1784504643 1186 7b7c54bd63cfcf3f593e4a39855e3c7d ""
+  "lab-01/sections/object-5.tex" 1784506364 1116 89f71133be6afc68043ec400b4bf547b ""
   "lab-01/sections/object-6.tex" 1784504703 2064 b205b2f92f44ab456b4f8d0e6d6f6ba8 ""
-  "lab-01/sections/object-7.tex" 1784505125 1856 1356b5fbddb5bd2794cf6b02ec9f451b ""
-  "lab-01/sections/object-8.tex" 1784504219 1213 3889bee3ebab3d45bf559848c374bf25 ""
-  "lab-01/sections/object-9.tex" 1784504220 1213 e5bcd533f1518c13079c5c62070bfcc9 ""
+  "lab-01/sections/object-7.tex" 1784505994 1916 2fe9b3e1f35cb3711366ea55c01c1462 ""
+  "lab-01/sections/object-8.tex" 1784506180 1627 47b75ba148c3e303225f30f0f4e91687 ""
+  "lab-01/sections/object-9.tex" 1784506365 1194 1c20f1f4e0ae835c0ae0ac2b0792c881 ""
   "lab-01/sections/objectives.tex" 1784470311 604 0ae84f88443202e51a98df3fc9946aaa ""
   "lab-01/sections/references.tex" 1782212937 39 e4890250de2ad459f101c5bad33713c2 ""
   "lab-01/sections/theory.tex" 1784498946 2068 ad66c6a2e387d6f13640c09207e73952 ""
