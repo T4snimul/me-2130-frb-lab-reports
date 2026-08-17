@@ -1,0 +1,22 @@
+\section{Theory}
+\markright{Theory}
+
+This lab continues the exploration of parametric solid modeling principles using SolidWorks \cite{lab_01_solidworks_bible,lab_01_dassault_official}. Central to parametric modeling is the notion of a fully defined sketch: a 2D profile constrained by dimensions and geometric relations so that subsequent features behave predictably \cite{lab_01_cad_fundamentals}.
+
+Common features used in this experiment include:
+
+- Extruded Boss/Base: creates prismatic geometry by giving a 2D profile a linear thickness.
+- Revolved Boss/Base: generates axisymmetric parts by revolving a profile about a centerline.
+- Cut operations: remove material from bodies using sketch-based profiles or intersecting geometry.
+- Fillets and Chamfers: apply local geometry changes to control stress concentrations and assembly fit.
+- Shell, Mirror, and Pattern features: promote reuse and maintainability of features across a part.
+
+Selecting the correct combination of these tools reduces rebuild time and produces more robust models. For example, thin-walled parts benefit from the `Shell` feature, while repeating geometry is best handled with `Pattern` or `Mirror` features. Fully defining sketches and naming important sketches/features aids later edits and collaboration \cite{lab_01_solidworks_bible,lab_01_cad_fundamentals}.
+
+Figures in the lab document illustrate representative sketches and feature outcomes from the seven parts modeled in this experiment. Each part's section explains the chosen workflow and demonstrates how the features above were combined to produce the final geometry.
+
+A central advantage of parametric modeling is the capture of design intent: dimensions and constraints express how a part should change when parameters are modified, enabling rapid iteration and variant generation \cite{lab_01_solidworks_bible}. Good sketching practice therefore emphasizes the use of driving dimensions for functional sizes, and geometric relations (coincident, concentric, tangent, perpendicular, parallel) to lock the sketch topology. Over-constraining a sketch can be as problematic as under-constraining it; the goal is clarity of intent rather than maximal constraint density \cite{lab_01_cad_fundamentals}.
+
+Reference geometry (planes, axes, and construction lines) plays an important role when creating complex features like revolved profiles or lofts. Establishing named planes and sketch origins early prevents ambiguous references and reduces rebuild failures when the model history changes. Where repeated variations are required, `Configurations` or design tables provide a controlled way to generate multiple part variants from a single master model, which is useful for family-of-parts exercises and assembly studies \cite{lab_01_dassault_official}.
+
+Finally, consideration of manufacturability and downstream processes should influence modeling choices. Simple features and regular faces ease CNC toolpaths and inspection; avoid unnecessarily intricate sketches when a combination of extrudes, cuts, and standard features (fillet/chamfer) will achieve the same form. Following these principles produces parts that are easier to edit, document, and prepare for production workflows \cite{lab_01_cad_fundamentals,lab_01_solidworks_bible}.

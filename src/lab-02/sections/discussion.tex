@@ -1,0 +1,13 @@
+\section{Discussion}
+\markright{Discussion}
+
+The seven parts in this lab required a mix of prismatic and axisymmetric modeling approaches. Parts with rectangular or stepped profiles were modeled primarily with Extruded Boss/Base and subsequent Cut features, while parts exhibiting rotational symmetry were created using Revolved Boss/Base where appropriate.
+
+Key observations:
+
+- Sketch definition: Parts that began with fully constrained sketches avoided rebuild errors and made downstream edits straightforward \cite{lab_01_solidworks_bible}.
+- Feature ordering: Creating primary solids first (bosses/revolves) and applying secondary details (fillets, chamfers, cuts) afterwards simplified history-tree management and reduced feature failures \cite{lab_01_cad_fundamentals}.
+- Use of shell and patterns: Thin-walled geometry was efficiently produced with `Shell`, and repetitive features used `Linear/Pattern` to keep the model concise and parametric.
+- Troubleshooting: Common issues included under-defined sketch entities and ambiguous references for revolve axes; naming sketches and reference geometry reduced ambiguity and rebuild errors \cite{lab_01_dassault_official}.
+
+The sectioned write-ups for each object describe the chosen workflow, crucial dimensions, and how each feature contributed to the final part. These notes serve both as reproducible instructions and as a basis for design reviews.
