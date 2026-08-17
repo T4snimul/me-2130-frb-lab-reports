@@ -1,7 +1,7 @@
 \section{Object 6}
 \markright{Object 6}
 
-This object was modeled using a straightforward, two-part extrusion process. Initially, the base profile was created as a 2D sketch and fully defined with dimensional constraints. This sketch was then extruded to form the primary block. Subsequently, a second sketch was drawn on the top surface of the base to define the upper tier, which was also extruded to complete the final geometry.
+A helix/spiral was defined using pitch, height, and diameter parameters to generate the coil path, and a circular profile was swept along this path to form the first coil. The path and sweep were then rotated 180° and swept again to produce the second, interlocking coil.
 
 \begin{figure}[H]
 	\centering
@@ -9,25 +9,25 @@ This object was modeled using a straightforward, two-part extrusion process. Ini
 	\begin{subfigure}[b]{0.49\textwidth}
 		\centering
 		\includegraphics[width=\textwidth, keepaspectratio]{lab-02/assets/object-6/1.png}
-		\caption{2D sketch of the base with dimensions}
+		\caption{Helix/spiral parameter dialog}
 	\end{subfigure}%
 	\hfill
 	\begin{subfigure}[b]{0.49\textwidth}
 		\centering
 		\includegraphics[width=\textwidth, keepaspectratio]{lab-02/assets/object-6/2.png}
-		\caption{Extruding the base sketch}
+		\caption{Feature tree showing the generated helix curve}
 	\end{subfigure}%
 	\vspace{0.5em}
 	\begin{subfigure}[b]{0.49\textwidth}
 		\centering
 		\includegraphics[width=\textwidth, keepaspectratio]{lab-02/assets/object-6/3.png}
-		\caption{2D sketch of the top portion with dimensions}
+		\caption{Sweeping the circular profile along the path}
 	\end{subfigure}%
 	\hfill
 	\begin{subfigure}[b]{0.49\textwidth}
 		\centering
 		\includegraphics[width=\textwidth, keepaspectratio]{lab-02/assets/object-6/4.png}
-		\caption{Extruding the top portion}
+		\caption{Rotating the path 180° for the second coil}
 	\end{subfigure}%
 	\vspace{0.5em}
 	\begin{subfigure}[b]{\textwidth}
