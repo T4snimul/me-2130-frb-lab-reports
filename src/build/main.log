@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.6.27)  17 AUG 2026 07:46
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.6.27)  17 AUG 2026 07:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1457,9 +1457,6 @@ File: lab-02/assets/object-2/5.jpg Graphic file (type bmp)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [20]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [21]
 File: lab-02/assets/object-3/1.png Graphic file (type bmp)
 <lab-02/assets/object-3/1.png>
 File: lab-02/assets/object-3/2.png Graphic file (type bmp)
@@ -1473,7 +1470,7 @@ File: lab-02/assets/object-3/5.png Graphic file (type bmp)
 ) (lab-02/sections/object-4.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [22]
+ [21]
 File: lab-02/assets/object-4/1.png Graphic file (type bmp)
 <lab-02/assets/object-4/1.png>
 File: lab-02/assets/object-4/2.png Graphic file (type bmp)
@@ -1487,7 +1484,7 @@ File: lab-02/assets/object-4/5.png Graphic file (type bmp)
 ) (lab-02/sections/object-5.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [23]
+ [22]
 File: lab-02/assets/object-5/1.png Graphic file (type bmp)
 <lab-02/assets/object-5/1.png>
 File: lab-02/assets/object-5/2.png Graphic file (type bmp)
@@ -1501,7 +1498,7 @@ File: lab-02/assets/object-5/5.png Graphic file (type bmp)
 ) (lab-02/sections/object-6.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [24]
+ [23]
 File: lab-02/assets/object-6/1.png Graphic file (type bmp)
 <lab-02/assets/object-6/1.png>
 File: lab-02/assets/object-6/2.png Graphic file (type bmp)
@@ -1523,9 +1520,9 @@ File: lab-02/assets/object-7/4.png Graphic file (type bmp)
 <lab-02/assets/object-7/4.png>
 File: lab-02/assets/object-7/5.png Graphic file (type bmp)
 <lab-02/assets/object-7/5.png>
- [25]) (lab-02/sections/discussion.tex) (lab-02/sections/conclusion.tex [26]) (lab-02/sections/references.tex)
+ [24]) (lab-02/sections/discussion.tex) (lab-02/sections/conclusion.tex [25]) (lab-02/sections/references.tex)
 Package biblatex Info: Reference section=0 on input line 28.
-) [27] 
+) [26] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
 (d:\Academics\2-1\Lab Reports\ME 2130 ~ FRB\src\build\main.aux)
  ***********
@@ -1547,4 +1544,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  89i,16n,120p,1051b,5564s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on d:\Academics\2-1\Lab Reports\ME 2130 ~ FRB\src\build\main.xdv (29 pages, 306348 bytes).
+Output written on d:\Academics\2-1\Lab Reports\ME 2130 ~ FRB\src\build\main.xdv (28 pages, 305816 bytes).
