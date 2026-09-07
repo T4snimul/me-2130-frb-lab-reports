@@ -218,5 +218,100 @@
     \endentry
   \enddatalist
 \endrefsection
+
+\refsection{3}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{lab03_solidworks_guide}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=a231fb6ae3d9054f4f96504aab1b6ca9}{%
+           family={Corporation},
+           familyi={C\bibinitperiod},
+           given={SolidWorks},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Dassault Systèmes}%
+      }
+      \strng{namehash}{a231fb6ae3d9054f4f96504aab1b6ca9}
+      \strng{fullhash}{a231fb6ae3d9054f4f96504aab1b6ca9}
+      \strng{fullhashraw}{a231fb6ae3d9054f4f96504aab1b6ca9}
+      \strng{bibnamehash}{a231fb6ae3d9054f4f96504aab1b6ca9}
+      \strng{authorbibnamehash}{a231fb6ae3d9054f4f96504aab1b6ca9}
+      \strng{authornamehash}{a231fb6ae3d9054f4f96504aab1b6ca9}
+      \strng{authorfullhash}{a231fb6ae3d9054f4f96504aab1b6ca9}
+      \strng{authorfullhashraw}{a231fb6ae3d9054f4f96504aab1b6ca9}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{SolidWorks Tutorials: Part, Assembly, and Drawings}
+      \field{year}{2026}
+    \endentry
+    \entry{lab03_mech_design}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=6faa3fa2aedd326fc1c38917f0e905c7}{%
+           family={Shigley},
+           familyi={S\bibinitperiod},
+           given={J.E.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a358cd1b3f2ef33d710aaced1b396e67}{%
+           family={Mischke},
+           familyi={M\bibinitperiod},
+           given={C.R.},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {McGraw-Hill}%
+      }
+      \strng{namehash}{b2ba241426a4c3fe0b78809cd40448d7}
+      \strng{fullhash}{b2ba241426a4c3fe0b78809cd40448d7}
+      \strng{fullhashraw}{b2ba241426a4c3fe0b78809cd40448d7}
+      \strng{bibnamehash}{b2ba241426a4c3fe0b78809cd40448d7}
+      \strng{authorbibnamehash}{b2ba241426a4c3fe0b78809cd40448d7}
+      \strng{authornamehash}{b2ba241426a4c3fe0b78809cd40448d7}
+      \strng{authorfullhash}{b2ba241426a4c3fe0b78809cd40448d7}
+      \strng{authorfullhashraw}{b2ba241426a4c3fe0b78809cd40448d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{10th}
+      \field{title}{Mechanical Engineering Design}
+      \field{year}{2015}
+    \endentry
+    \entry{lab03_cad_design}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=a20337db1876ee0ed729c121275d9d21}{%
+           family={Ulrich},
+           familyi={U\bibinitperiod},
+           given={K.T.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=8c8cc924cf2189f8351e67946cf1df99}{%
+           family={Eppinger},
+           familyi={E\bibinitperiod},
+           given={S.D.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {McGraw-Hill}%
+      }
+      \strng{namehash}{04b2c975d24eedcdeb5675db097797fd}
+      \strng{fullhash}{04b2c975d24eedcdeb5675db097797fd}
+      \strng{fullhashraw}{04b2c975d24eedcdeb5675db097797fd}
+      \strng{bibnamehash}{04b2c975d24eedcdeb5675db097797fd}
+      \strng{authorbibnamehash}{04b2c975d24eedcdeb5675db097797fd}
+      \strng{authornamehash}{04b2c975d24eedcdeb5675db097797fd}
+      \strng{authorfullhash}{04b2c975d24eedcdeb5675db097797fd}
+      \strng{authorfullhashraw}{04b2c975d24eedcdeb5675db097797fd}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{6th}
+      \field{title}{Product Design and Development}
+      \field{year}{2016}
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 
